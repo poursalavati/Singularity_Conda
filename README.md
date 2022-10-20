@@ -4,7 +4,7 @@ How to clone a conda env as a Singularity image
 
 # Clean Conda env (recomended)
 
--Start with a clean conda env and install all desired tools:
+Start with a clean conda env and install all desired tools:
 ```
 Conda create -n <env> -c <channel1> -c <channel2> conda-pack <tool1> <tool2> 
 ```
